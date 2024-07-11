@@ -22,7 +22,7 @@ const AddToCart = ({ data }) => {
     const navigate = useNavigate();
     const [confirmationModal, setConfirmationModal] = useState(null)
 
-    const BASE_URL = 'http://localhost:4000/api/v1'; // Replace with your actual base URL
+    const BASE_URL = 'https://studynotion-backend-ro0r.onrender.com/api/v1'; // Replace with your actual base URL
     // const STRIPE_PUBLISHABLE_KEY = process.env.REACT_APP_STRIPE_PUBLIC_KEY;
 
     const handleCart = () => {
