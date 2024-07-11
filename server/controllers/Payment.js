@@ -71,7 +71,7 @@ async function capturePayment(req, res) {
         },
       ],
 
-      success_url:`http://localhost:3000/checkout-completed?session_id={CHECKOUT_SESSION_ID}`,
+      success_url:`https://mega-study-notion.vercel.app/checkout-completed?session_id={CHECKOUT_SESSION_ID}`,
       cancel_url: process.env.FRONTEND_URL,
       metadata: {
         userId: userId,
