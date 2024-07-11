@@ -10,7 +10,7 @@ const CheckoutCompleted = () => {
     const {token}=useSelector((store)=>store.auth)
 
 
-    const BASE_URL = 'http://localhost:4000/api/v1'; // Replace with your actual base URL
+    const BASE_URL = 'https://studynotion-backend-ro0r.onrender.com/api/v1'; // Replace with your actual base URL
 
     async function verifyPayments(){
         const body={
