@@ -38,7 +38,7 @@ app.use((req, res, next) => {
 app.use(cookieParser());
 app.use(
 	cors({
-		origin:"http://localhost:3000",
+		origin:"https://mega-study-notion.vercel.app",
 		credentials:true,
 	})
 )
