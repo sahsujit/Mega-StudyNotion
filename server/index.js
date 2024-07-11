@@ -17,7 +17,7 @@ const {  verifyPayment } = require('./controllers/Payment')
 
 
 dotenv.config();
-const PORT =  4000;
+const PORT =  process.env.PORT || 4000;
 
 database.connectDb();
 //middlewares
